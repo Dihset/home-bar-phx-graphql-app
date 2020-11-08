@@ -1,0 +1,14 @@
+{
+	"name": "Elixir Phx",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+	},
+	"extensions": [
+		"jakebecker.elixir-ls"
+	],
+	"runArgs": [
+		"--network=home-bar-network"
+	],
+	"forwardPorts": [4000],
+}
